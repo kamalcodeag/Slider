@@ -1,0 +1,49 @@
+body {
+  height: 2000px;
+  background: radial-gradient(circle, #b4b4f5, #f5e4e4); }
+  body .s-frame {
+    width: 80vw;
+    height: 80vh;
+    left: 50%;
+    transform: translateX(-50%); }
+    body .s-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px; }
+    body .s-frame .s-arrow-left, body .s-frame .s-arrow-right {
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.7rem;
+      color: white; }
+    body .s-frame .s-arrow-left {
+      left: 5%;
+      cursor: pointer; }
+    body .s-frame .s-arrow-right {
+      right: 5%;
+      cursor: pointer; }
+    body .s-frame .s-close {
+      top: -2%;
+      right: -5%;
+      font-size: 3rem;
+      cursor: pointer; }
+  body .s-list {
+    width: 1500px;
+    height: 400px; }
+    body .s-list li {
+      width: 300px;
+      height: 200px;
+      filter: grayscale(100%);
+      transition: all .5s ease-in-out;
+      cursor: pointer; }
+      body .s-list li img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px; }
+      body .s-list li:hover {
+        filter: grayscale(0); }
+    body .s-list li.active {
+      filter: grayscale(0);
+      cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
